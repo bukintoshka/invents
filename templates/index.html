@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Document</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <h2>Salary</h2>
-        <div>This is template</div>
-        {{ txt }}
-    </body> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Inventor</h2>
+    <form action='/add/' method="POST">
+        <input type="text" name="good">
+        <button>Add</button>
+    </form>
+    <ol>
+        {% for good in goods %}
+            <li>{{ good }}</li>
+        {% endfor %}
+    </ol>
+</body>
 </html>
