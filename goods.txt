@@ -2,4 +2,6 @@ Mouse
 Keyboard
 Laptop
 Microphone
-Клавиатура
+КлавиатураBag
+Bag
+Pencil
